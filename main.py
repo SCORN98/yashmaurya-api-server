@@ -1,7 +1,7 @@
 ﻿"""FastAPI entrypoint for the SDS2 AI Copilot MVP."""
 
 from __future__ import annotations
-from .schemas import ApplyRequest
+
 from copy import deepcopy
 from fastapi import FastAPI, HTTPException, BackgroundTasks
 
